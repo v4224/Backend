@@ -16,23 +16,23 @@
      ```sh
      dotnet restore
      ```
-    * build and run project
+   * Build and run project
      ```sh
      dotnet run
      ```
-Open [http://192.168.189.99:5214/swagger/index.html](http://192.168.189.99:5214/swagger/index.html) to view it in your browser.
+   Open [http://192.168.189.99:5214/swagger/index.html](http://192.168.189.99:5214/swagger/index.html) to view it in your browser.
 
 4. Run the project by using docker manually:
-  * Build docker image
+   * Build docker image
      ```sh
      docker build -t onlineshop-backend .
      ```
-  * Run container
+   * Run container
      ```sh
      docker run --name onlineshop-backend -dp 5214:5214 onlineshop-backend
      ```
 
 5. Run the project by using docker with Jenkins CI/CD pipeline:
-  * Set jenkins agent as lab-server
-  * Run pipeline in Jenkinsfile on Jenkins server
+   * Set jenkins agent as lab-server
+   * Run pipeline in Jenkinsfile on Jenkins server
 ---
